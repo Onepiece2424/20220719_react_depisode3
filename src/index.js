@@ -19,5 +19,14 @@ const containers = document.querySelectorAll(".container");
 console.log(containers);
 
 //divの生成
+// const divEl = document.createElement("div");
+// console.log(divEl);
+
+//DOMの追加
+//div配下にpタグの生成
 const divEl = document.createElement("div");
+
+const pEl = document.createElement("p");
+
+divEl.appendChild(pEl);
 console.log(divEl);
