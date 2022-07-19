@@ -43,3 +43,13 @@ buttonEl.textContent = "ボタン";
 
 const divEl = document.querySelector(".container");
 divEl.appendChild(buttonEl);
+
+//DOMの削除
+//h1タグを削除
+const h1El = document.getElementById("title");
+const bodyEl = document.querySelector("body");
+
+bodyEl.removeChild(h1El);
+
+//body配下を全削除
+// bodyEl.textContent = null;
