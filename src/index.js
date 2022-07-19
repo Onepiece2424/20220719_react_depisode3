@@ -17,3 +17,7 @@ console.log(container);
 //querySelectorAll
 const containers = document.querySelectorAll(".container");
 console.log(containers);
+
+//divの生成
+const divEl = document.createElement("div");
+console.log(divEl);
