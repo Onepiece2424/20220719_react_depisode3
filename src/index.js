@@ -30,6 +30,9 @@ const pEl = document.createElement("p");
 
 const h2El = document.createElement("h2");
 
-divEl.appendChild(pEl);
-divEl.appendChild(h2El);
+// divEl.appendChild(pEl);
+// divEl.appendChild(h2El);
+
+divEl.prepend(pEl);
+divEl.prepend(h2El);
 console.log(divEl);
